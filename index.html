@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SnowyCoder Home</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .project-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .project-item {
+            margin-top: 4em;
+        }
+        /* Style all font awesome icons */
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-telegram {
+            background: #0088cc;
+            color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        /* Github */
+        .fa-github {
+            background: #444;
+            color: white;
+        }
+
+        /* Github */
+        .fa-spigot {
+            background: #55ACEE;
+            color: white;
+        }
+    </style>
+</head>
+<body style="padding-top: 90px">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="collapse navbar-collapse">>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="home" class="container text-center">
+            <div class="img-responsive">
+                <img src="https://avatars0.githubusercontent.com/u/10945206?v=4" alt="Logo" width="20%">
+            </div>
+            <div class="container text-center text-info">
+                <h2>
+                    Welcome to SnowyCoder's Home page!
+                </h2>
+            </div>
+        </div>
+        <div id="projects" class="project-container">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title text-success">Kanatrainer</h2>
+              <p class="card-text">A simple game that helps you memorize hiragana and katakana characters</p>
+              <div class="text-center">
+                <a href="kanatrainer/index.html" class="btn btn-primary">Play</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contacts" class="container text-center">
+            <h2>
+                Contacts
+            </h2>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://t.me/SnowyCoder" class="fa fa-telegram"></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/snowy_coder" class="fa fa-twitter"></a></li>
+                <li class="list-inline-item"><a href="https://github.com/SnowyCoder" class="fa fa-github"></a></li>
+                <li class="list-inline-item"><a href="https://www.spigotmc.org/members/snowycoder.75029/" class="fa fa-spigot">
+                    <img src="spigot-og.png" class="img-fluid" style="width: 100%; height: auto;">
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
