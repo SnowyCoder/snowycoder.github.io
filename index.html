@@ -12,9 +12,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            padding: 1.5rem;
+            border-width: .2rem;
         }
         .project-item {
-            margin-top: 4em;
+            margin-top: 2em;
+            margin-left: 1.5em;
+            margin-right: 1.5em;
         }
         /* Style all font awesome icons */
         .fa {
@@ -57,6 +61,12 @@
             background: #55ACEE;
             color: white;
         }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body style="padding-top: 90px">
@@ -83,14 +93,14 @@
             <div class="img-responsive">
                 <img src="https://avatars0.githubusercontent.com/u/10945206?v=4" alt="Logo" width="20%">
             </div>
-            <div class="container text-center text-info">
+            <div class="container text-center text-info" style="margin-top: 25px;">
                 <h2>
                     Welcome to SnowyCoder's Home page!
                 </h2>
             </div>
         </div>
         <div id="projects" class="project-container">
-          <div class="card" style="width: 18rem;">
+          <div class="card project-item" style="width: 18rem;">
             <div class="card-body">
               <h2 class="card-title text-success">Kanatrainer</h2>
               <p class="card-text">A simple game that helps you memorize hiragana and katakana characters</p>
@@ -99,7 +109,20 @@
               </div>
             </div>
           </div>
+          <div class="card project-item" style="width: 18rem;">
+              <div class="card-body">
+                  <h2 class="card-title text-success">Others...</h2>
+                  <p class="card-text">You can find most of the other projects not mentioned in this page in the github repo list</p>
+                  <div class="text-center">
+                      <a href="https://github.com/SnowyCoder?tab=repositories" class="btn btn-primary">Play</a>
+                  </div>
+              </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div id="footer" class="footer">
+      <div class="container">
         <div id="contacts" class="container text-center">
             <h2>
                 Contacts
@@ -113,6 +136,7 @@
                 </a></li>
             </ul>
         </div>
+      </div>
     </div>
 
 
